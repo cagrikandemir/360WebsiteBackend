@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="360Backend.BusinessLayer/360Backend.BusinessLayer.csproj" />
+  <Project Path="360Backend.DataAccesLayer/360Backend.DataAccesLayer.csproj" />
   <Project Path="360Backend.DtoLayer/360Backend.DtoLayer.csproj" />
   <Project Path="360Backend.EntityLayer/360Backend.EntityLayer.csproj" />
   <Project Path="360Backend.WebApi/360Backend.WebApi.csproj" />
