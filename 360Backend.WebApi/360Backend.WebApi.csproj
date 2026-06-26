@@ -9,6 +9,17 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\360Backend.BusinessLayer\360Backend.BusinessLayer.csproj" />
+    <ProjectReference Include="..\360Backend.DataAccesLayer\360Backend.DataAccesLayer.csproj" />
+    <ProjectReference Include="..\360Backend.DtoLayer\360Backend.DtoLayer.csproj" />
+    <ProjectReference Include="..\360Backend.EntityLayer\360Backend.EntityLayer.csproj" />
   </ItemGroup>
 
 </Project>
