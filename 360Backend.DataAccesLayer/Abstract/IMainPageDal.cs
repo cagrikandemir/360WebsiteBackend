@@ -2,6 +2,6 @@
 
 namespace _360Backend.DataAccesLayer.Abstract;
 
-public interface IMainPage : IGenericDal<MainPage>
+public interface IMainPageDal : IGenericDal<MainPage>
 {
 }

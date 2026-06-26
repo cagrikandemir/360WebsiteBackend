@@ -1,9 +1,14 @@
+using _360Backend.BusinessLayer.Container;
 using _360Backend.DataAccesLayer.Concrete;
+using _360Backend.WebApi.Mapping;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+builder.Services.ContainerDependencies();
+builder.Services.AddAutoMapper(typeof(GeneralMapping));// Add services to the container.
 builder.Services.AddDbContext<_360BackendContext>(options =>
 {
     options.UseSqlServer(

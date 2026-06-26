@@ -5,9 +5,9 @@ using _360Backend.EntityLayer.Entities;
 
 namespace _360Backend.DataAccesLayer.EntityFramework;
 
-public class EfAboutDal : GenericRepository<Aboutus>, IAboutDal
+public class EfMainPageDal : GenericRepository<MainPage>, IMainPageDal
 {
-    public EfAboutDal(_360BackendContext context) : base(context)
+    public EfMainPageDal(_360BackendContext context) : base(context)
     {
     }
 }
